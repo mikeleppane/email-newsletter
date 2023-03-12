@@ -47,8 +47,6 @@ jobs:
       - name: Check sqlx-data.json is up-to-date
         run: |
           cargo sqlx prepare --check -- --bin email-newsletter
-          - name: Run tests
-            run: cargo test
       - name: Run tests
         run: cargo test
 
