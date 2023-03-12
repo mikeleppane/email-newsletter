@@ -1,6 +1,5 @@
 use secrecy::ExposeSecret;
 use secrecy::Secret;
-use tracing_subscriber::fmt::try_init;
 
 #[derive(serde::Deserialize)]
 pub struct Settings {

@@ -17,6 +17,8 @@ name = "email-newsletter"
 opt-level = 3
 lto = true
 incremental = true
+strip = true
+codegen-units = 1
 
 [dependencies]
 actix-web = "4"
